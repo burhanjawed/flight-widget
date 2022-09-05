@@ -23,6 +23,7 @@ app.get('/flights', (req, res) => {
     .request(options)
     .then(function (response) {
       console.log(response.data);
+      res.json(response.data.slice(0, 6));
     })
     .catch(function (error) {
       console.error(error);
