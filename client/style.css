@@ -52,3 +52,23 @@ h1 {
     transform: rotateX(0deg);
   }
 }
+
+#time {
+  width: 160px;
+}
+
+#destination {
+  width: 70px;
+}
+
+#flight {
+  width: 205px;
+}
+
+#gate {
+  width: 135px;
+}
+
+#remarks {
+  width: 260px;
+}
